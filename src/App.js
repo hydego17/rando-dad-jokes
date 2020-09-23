@@ -29,10 +29,10 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="container">
-          <p>😜 Random dad jokes </p>
+          <p>😜 Random dad joke</p>
           <h1 className="heading">{myJoke}</h1>
           <button className="button" onClick={this.fetchJoke}>
-            <span>Thank you, next</span>
+            <span>alright next</span>
           </button>
         </div>
       </div>
